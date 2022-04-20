@@ -3,6 +3,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 import pickle
 
 ############ Uncomment the following 4 lines if you are running for the first time, it will save your google account credentials in a pickle file
+#### Follow the first part of this tutorial for more info: https://www.codespeedy.com/access-google-calendar-data-with-python/
 # scopes = ['https://www.googleapis.com/auth/calendar']
 # flow = InstalledAppFlow.from_client_secrets_file("client_secret.json", scopes=scopes)
 # credentials = flow.run_console()
