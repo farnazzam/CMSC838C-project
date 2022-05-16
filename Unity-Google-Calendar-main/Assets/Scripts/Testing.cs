@@ -10,9 +10,9 @@ public class Testing : MonoBehaviour
 void Start()
 {
     Calendar calendar = new Calendar();
-    var test = calendar.Main("3256");
-    //foreach(var ev in test)
-        Debug.Log(test);
+    // var test = new List<string[]>();
+    var test = calendar.Main("2119");
+    Debug.Log(test[0][1]);
 }
 
 
